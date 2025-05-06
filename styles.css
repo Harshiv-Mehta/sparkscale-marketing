@@ -1,9 +1,9 @@
 /* Define Minimalist Color Palette */
 :root {
-  --primary: #007ACC;    /* Deep Blue */
-  --secondary: #F1C40F;  /* Elegant Gold */
-  --background: #FFFFFF;  /* Pure White */
-  --text-dark: #222222;   /* Strong Black */
+  --primary: #1E90FF;    /* Deep Blue */
+  --secondary: #FF8C00;  /* Elegant Gold */
+  --background: #121212;  /* Pure White */
+  --text-dark: #E0E0E0;   /* Strong Black */
 }
 
 /* Reset & Global Styles */
