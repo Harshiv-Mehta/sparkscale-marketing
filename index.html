@@ -1,206 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sparkscale Marketing | Elevate, Engage, Expand</title>
-  <meta name="description" content="Sparkscale Marketing empowers entrepreneurs with expert social media strategies, engaging content, and smart marketing solutions." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <!-- Header -->
-  <header class="sticky">
-    <div class="container header-container">
-      <h1 class="logo">Sparkscale Marketing</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SparkScale Marketing | Social-First Growth for Ambitious Brands</title>
+    <meta
+      name="description"
+      content="SparkScale Marketing helps growth-minded businesses turn social presence into revenue through strategy, content, campaigns, and conversion-focused execution."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
 
-  <!-- Home Section -->
-  <section id="home" class="section home-section">
-    <div class="container">
-      <img src="home-banner.jpg" alt="Sparkscale Marketing Banner" class="hero-image" />
-      <h2>Elevate, Engage, Expand!</h2>
-      <p>
-        We empower entrepreneurs by expanding their digital presence through expert social media strategies and engaging content.
-      </p>
-      <a href="#services" class="btn">Explore Services</a>
-    </div>
-  </section>
+    <header class="site-header">
+      <div class="container header-shell">
+        <a class="brand" href="#home" aria-label="SparkScale Marketing home">
+          <span class="brand-mark">S</span>
+          <span class="brand-text">SparkScale Marketing</span>
+        </a>
 
-  <!-- About Us Section -->
-  <section id="about" class="section about-section">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>
-        Sparkscale Marketing is dedicated to empowering entrepreneurs to scale their businesses through creative and data-driven digital strategies. Our team of experts delivers personalized solutions in social media management, content creation, and comprehensive marketing strategies that transform brands into industry leaders.
-      </p>
-    </div>
-  </section>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
 
-  <!-- Services Section -->
-  <section id="services" class="section">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="cards">
-        <!-- Service Card 1 -->
-        <div class="card">
-          <h3>Social Media Management</h3>
-          <p>
-            Profile setup, audience targeting, engagement strategies, and more.
-          </p>
-          <button class="btn-toggle" data-target="social-details">View Details</button>
-          <div id="social-details" class="card-details">
-            <p>Basic: ₹500/month</p>
-            <p>Growth: ₹2,500/month</p>
-            <p>Premium: ₹5,000/month</p>
+        <nav id="site-nav" class="site-nav">
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#team">Team</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact" class="nav-cta">Book a Call</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Social-first growth studio</p>
+            <h1>We turn attention into trust, and trust into customers.</h1>
+            <p class="hero-text">
+              SparkScale builds the strategy, content engine, and campaign system ambitious businesses need
+              to grow online without sounding generic or wasting ad spend.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button-primary" href="#contact">Book a discovery call</a>
+              <a class="button-secondary" href="#work">See client results</a>
+            </div>
+
+            <div class="proof-row">
+              <div class="proof-card">
+                <strong data-count="120">0</strong>
+                <span>campaigns launched</span>
+              </div>
+              <div class="proof-card">
+                <strong data-count="38">0</strong>
+                <span>brands scaled</span>
+              </div>
+              <div class="proof-card">
+                <strong data-count="5">0</strong>
+                <span>x average content reach lift</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-panel panel-main">
+              <img src="client 1.jpg" alt="SparkScale founder portrait" />
+            </div>
+            <div class="hero-panel panel-note">
+              <p class="panel-label">What clients hire us for</p>
+              <ul>
+                <li>Brand positioning that feels sharp and memorable</li>
+                <li>Content systems that are consistent, not chaotic</li>
+                <li>Campaigns built around leads, bookings, and sales</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <!-- Service Card 2 -->
-        <div class="card">
-          <h3>Content Creation</h3>
-          <p>
-            Professional visuals and compelling content that make your brand stand out.
-          </p>
-          <button class="btn-toggle" data-target="content-details">View Details</button>
-          <div id="content-details" class="card-details">
-            <p>Basic: ₹500/month</p>
-            <p>Growth: ₹2,500/month</p>
-            <p>Premium: ₹5,000/month</p>
+      </section>
+
+      <section class="logo-strip">
+        <div class="container logo-strip-inner">
+          <span>Trusted by founders, local brands, service businesses, and product-led teams</span>
+          <span>Strategy</span>
+          <span>Content</span>
+          <span>Creative</span>
+          <span>Campaigns</span>
+          <span>Funnels</span>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container split-layout">
+          <div class="section-copy reveal">
+            <p class="eyebrow">Why SparkScale</p>
+            <h2>Built for brands that want real growth, not just busy-looking feeds.</h2>
+            <p>
+              We combine audience insight, creative direction, short-form storytelling, and practical
+              conversion strategy to make your brand feel stronger at every customer touchpoint.
+            </p>
+            <p>
+              Whether you need consistent social management or a full launch campaign, our work is designed
+              to create momentum across content, community, and sales.
+            </p>
+          </div>
+
+          <div class="insight-cards reveal">
+            <article class="insight-card">
+              <h3>Positioning first</h3>
+              <p>We clarify your message before pushing more content into the market.</p>
+            </article>
+            <article class="insight-card">
+              <h3>Creative with intent</h3>
+              <p>Every reel, carousel, visual, and caption is mapped to a business objective.</p>
+            </article>
+            <article class="insight-card">
+              <h3>Execution that compounds</h3>
+              <p>We build repeatable systems so your marketing keeps working after the first burst.</p>
+            </article>
           </div>
         </div>
-        <!-- Service Card 3 -->
-        <div class="card">
-          <h3>Marketing Strategy</h3>
-          <p>
-            SEO, paid ads, and conversion optimization for maximum impact.
-          </p>
-          <button class="btn-toggle" data-target="marketing-details">View Details</button>
-          <div id="marketing-details" class="card-details">
-            <p>Basic: ₹500/month</p>
-            <p>Growth: ₹2,500/month</p>
-            <p>Premium: ₹5,000/month</p>
+      </section>
+
+      <section id="services" class="section services-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Services</p>
+            <h2>A complete marketing stack for growing brands.</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <div class="service-top">
+                <h3>Social Media Management</h3>
+                <span>01</span>
+              </div>
+              <p>Platform planning, community engagement, editorial calendars, publishing, and reporting.</p>
+              <button class="service-toggle" type="button" aria-expanded="false">View deliverables</button>
+              <div class="service-details">
+                <ul>
+                  <li>Monthly content calendar and posting plan</li>
+                  <li>Audience growth tactics and DM response flow</li>
+                  <li>Weekly performance review and optimization</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-top">
+                <h3>Content Production</h3>
+                <span>02</span>
+              </div>
+              <p>Reels, carousels, ad creatives, scripts, hooks, captions, and brand-consistent visuals.</p>
+              <button class="service-toggle" type="button" aria-expanded="false">View deliverables</button>
+              <div class="service-details">
+                <ul>
+                  <li>Visual direction and creative templates</li>
+                  <li>Video scripting and performance-focused copy</li>
+                  <li>Creative batches for campaigns and launches</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-top">
+                <h3>Growth Campaigns</h3>
+                <span>03</span>
+              </div>
+              <p>Offer launches, lead generation funnels, paid campaigns, and performance reporting.</p>
+              <button class="service-toggle" type="button" aria-expanded="false">View deliverables</button>
+              <div class="service-details">
+                <ul>
+                  <li>Campaign concepts and conversion messaging</li>
+                  <li>Ad creative direction and landing page support</li>
+                  <li>Lead quality tracking and weekly adjustments</li>
+                </ul>
+              </div>
+            </article>
           </div>
         </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Process</p>
+            <h2>How we move from scattered effort to a confident growth engine.</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-step reveal">
+              <span>Step 1</span>
+              <h3>Audit & direction</h3>
+              <p>We review your offer, audience, competitors, content, and current performance.</p>
+            </article>
+            <article class="process-step reveal">
+              <span>Step 2</span>
+              <h3>Build the system</h3>
+              <p>We create your messaging pillars, creative themes, funnel path, and rollout plan.</p>
+            </article>
+            <article class="process-step reveal">
+              <span>Step 3</span>
+              <h3>Launch & optimize</h3>
+              <p>We publish, test, measure, and refine based on what drives reach, leads, and sales.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section work-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Selected work</p>
+            <h2>Results that show up in reach, response, and revenue.</h2>
+          </div>
+
+          <div class="case-grid">
+            <article class="case-card reveal">
+              <h3>Local food brand relaunch</h3>
+              <p>
+                Repositioned a small cafe with content pillars, short-form video, and a tighter offer structure.
+              </p>
+              <ul>
+                <li>5x increase in profile visits</li>
+                <li>3.2x lift in campaign inquiries</li>
+                <li>Clearer content system for weekly publishing</li>
+              </ul>
+            </article>
+
+            <article class="case-card reveal">
+              <h3>Jewelry business growth sprint</h3>
+              <p>
+                Combined creator-led visuals, offer-led copy, and product-focused storytelling for stronger
+                conversion.
+              </p>
+              <ul>
+                <li>2.8x increase in site clicks</li>
+                <li>Higher repeat engagement from returning buyers</li>
+                <li>Launch campaign assets ready in two weeks</li>
+              </ul>
+            </article>
+
+            <article class="case-card reveal">
+              <h3>Founder brand visibility push</h3>
+              <p>
+                Built a sharper content presence for a service business owner using expertise-led social content.
+              </p>
+              <ul>
+                <li>Consistent inbound leads from organic content</li>
+                <li>Stronger founder-led trust and authority</li>
+                <li>Repurposable content for ads and email</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="section team-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Team</p>
+            <h2>The people building the strategy behind the scenes.</h2>
+          </div>
+
+          <div class="team-grid">
+            <article class="team-card reveal">
+              <img src="client 1.jpg" alt="Founder and growth strategist" />
+              <h3>Arjun Verma</h3>
+              <p class="role">Founder & Growth Strategist</p>
+              <p>Leads positioning, offers, growth planning, and client strategy.</p>
+            </article>
+
+            <article class="team-card reveal">
+              <img src="client 2.jpg" alt="Creative director" />
+              <h3>Rohan Mehta</h3>
+              <p class="role">Creative Director</p>
+              <p>Shapes visual language, video hooks, content systems, and campaign assets.</p>
+            </article>
+
+            <article class="team-card reveal">
+              <img src="women 2.jpg" alt="Client success lead" />
+              <h3>Neha Kapoor</h3>
+              <p class="role">Client Success Lead</p>
+              <p>Keeps strategy aligned, execution on track, and communication consistently strong.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonial-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Client voice</p>
+            <h2>What working with SparkScale feels like.</h2>
+          </div>
+
+          <div class="testimonial-stage reveal">
+            <article class="testimonial-card is-active">
+              <img src="client 1.jpg" alt="Client testimonial portrait" />
+              <blockquote>
+                “Their strategy finally made our content feel intentional. We saw more serious inquiries in a
+                month than we had in the previous quarter.”
+              </blockquote>
+              <p>Vikas Gupta, Dairy Farm Owner</p>
+            </article>
+
+            <article class="testimonial-card">
+              <img src="client 2.jpg" alt="Client testimonial portrait" />
+              <blockquote>
+                “SparkScale helped us go from random posting to a full campaign rhythm. The content quality and
+                sales response changed fast.”
+              </blockquote>
+              <p>Rohit Shrivastav, Cafe Owner</p>
+            </article>
+
+            <article class="testimonial-card">
+              <img src="women 2.jpg" alt="Client testimonial portrait" />
+              <blockquote>
+                “They understood both brand image and business numbers. That mix is rare, and it made the
+                whole partnership worth it.”
+              </blockquote>
+              <p>Aisha Sharma, Jewelry Entrepreneur</p>
+            </article>
+          </div>
+
+          <div class="testimonial-dots" aria-label="Testimonial navigation">
+            <button class="dot is-active" type="button" aria-label="Show testimonial 1"></button>
+            <button class="dot" type="button" aria-label="Show testimonial 2"></button>
+            <button class="dot" type="button" aria-label="Show testimonial 3"></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Pricing</p>
+            <h2>Choose the support level that matches your growth stage.</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="pricing-card reveal">
+              <p class="plan-tag">Launch</p>
+              <h3>Starter</h3>
+              <p class="price">Rs 7,500<span>/month</span></p>
+              <ul>
+                <li>Platform audit and content plan</li>
+                <li>8 social posts per month</li>
+                <li>1 monthly strategy call</li>
+                <li>Basic analytics report</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card featured reveal">
+              <p class="plan-tag">Most popular</p>
+              <h3>Growth</h3>
+              <p class="price">Rs 18,000<span>/month</span></p>
+              <ul>
+                <li>Full social media management</li>
+                <li>16 content assets per month</li>
+                <li>Monthly campaign planning</li>
+                <li>Bi-weekly reporting and optimization</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card reveal">
+              <p class="plan-tag">Scale</p>
+              <h3>Performance</h3>
+              <p class="price">Custom</p>
+              <ul>
+                <li>Campaigns, creative, and funnel support</li>
+                <li>Ad strategy and launch planning</li>
+                <li>Priority response and weekly reviews</li>
+                <li>Custom reporting around business goals</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq-section">
+        <div class="container faq-layout">
+          <div class="section-copy reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2>Questions founders usually ask before they start.</h2>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary>Do you work with small businesses or only bigger brands?</summary>
+              <p>Both. We typically work with service businesses, founder-led brands, and growing companies.</p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>Can you handle both strategy and content production?</summary>
+              <p>Yes. Our strongest engagements combine messaging, content planning, production, and reporting.</p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>How quickly can we start?</summary>
+              <p>Most projects start within one to two weeks after the discovery call and onboarding.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-shell">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Let’s talk</p>
+            <h2>Ready to build a brand presence that actually compounds?</h2>
+            <p>
+              Tell us what you are selling, what is stuck, and what kind of growth you want next. We will
+              follow up with the best starting path.
+            </p>
+          </div>
+
+          <form id="contactForm" class="contact-form reveal">
+            <label>
+              <span>Name</span>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" id="email" name="email" placeholder="name@example.com" required />
+            </label>
+            <label>
+              <span>Business</span>
+              <input type="text" id="business" name="business" placeholder="Your brand or company" required />
+            </label>
+            <label>
+              <span>What do you need help with?</span>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Share your goals, challenges, or campaign idea..."
+                required
+              ></textarea>
+            </label>
+            <button type="submit" class="button-primary">Send inquiry</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <div>
+          <p class="footer-brand">SparkScale Marketing</p>
+          <p>Social-first marketing systems built to grow attention, trust, and revenue.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="section">
-    <div class="container">
-      <h2>Testimonials</h2>
-      <div class="testimonial-slider">
-        <div class="testimonial">
-          <img src="client 1.jpg" alt="Client 1" />
-          <p>
-            "Their strategies have boosted my brand’s online presence like never before." – Vikas Gupta, Dairy Farm Owner
-          </p>
-        </div>
-        <div class="testimonial">
-          <img src="client 2.jpg" alt="Client 2" />
-          <p>
-            "High-quality content and engaging strategies increased our sales by 5X!" – Rohit Shrivastav, Café Owner
-          </p>
-        </div>
-        <div class="testimonial">
-          <img src="women 2.jpg" alt="Client 3" />
-          <p>
-            "Professional and innovative; Sparkscale Marketing transformed my business." – Aisha Sharma, Jewelry Entrepreneur
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing Section -->
-  <section id="pricing" class="section">
-    <div class="container">
-      <h2>Pricing Plans</h2>
-      <div class="pricing-cards">
-        <!-- Basic Plan -->
-        <div class="pricing-card">
-          <h3>Basic</h3>
-          <p class="price">₹500/month</p>
-          <p class="plan-description">
-            Ideal for startups and small businesses needing a foundational online presence.
-          </p>
-          <ul class="features">
-            <li>Profile setup on key platforms</li>
-            <li>Up to 5 custom posts per month</li>
-            <li>Basic content curation &amp; engagement</li>
-            <li>Monthly performance reporting</li>
-          </ul>
-        </div>
-        <!-- Growth Plan -->
-        <div class="pricing-card">
-          <h3>Growth</h3>
-          <p class="price">₹2,500/month</p>
-          <p class="plan-description">
-            Great for expanding brands ready to increase online engagement and reach.
-          </p>
-          <ul class="features">
-            <li>Enhanced social media strategy</li>
-            <li>Up to 15 posts per month (graphics &amp; video snippets)</li>
-            <li>Detailed hashtag research &amp; trend integration</li>
-            <li>Quarterly competitor analysis and insights</li>
-          </ul>
-        </div>
-        <!-- Premium Plan -->
-        <div class="pricing-card">
-          <h3>Premium</h3>
-          <p class="price">₹5,000/month</p>
-          <p class="plan-description">
-            Designed for established brands aiming for industry leadership and maximum growth.
-          </p>
-          <ul class="features">
-            <li>Comprehensive social media management</li>
-            <li>Daily posts with high-quality creative content</li>
-            <li>Influencer collaborations &amp; targeted ad campaigns</li>
-            <li>Advanced analytics with weekly optimization sessions</li>
-            <li>Dedicated account management &amp; strategic consultation</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>If you have any questions, please feel free to reach out.</p>
-      <form id="contactForm">
-        <input type="text" id="name" placeholder="Your Name" required />
-        <input type="email" id="email" placeholder="Your Email" required />
-        <textarea id="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Sparkscale Marketing. All Rights Reserved.</p>
-      <p>
-        Follow us on 
-        <a href="#">Facebook</a> | 
-        <a href="#">Twitter</a> | 
-        <a href="#">LinkedIn</a>
-      </p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
